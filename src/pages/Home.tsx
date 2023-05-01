@@ -38,28 +38,6 @@ function Home() {
     setLoading(false);
   }
 
-  // const handleSubmit = () => {
-  //   console.log('form submitted ✅');
-  //   handleSearchDefinition();
-  // };
-
-  // useEffect(() => {
-  //   const keyDownHandler = (event:any) => {
-
-  //     if (event.key === 'Enter') {
-  //       event.preventDefault();
-  //       setWord(event.target.value);
-  //       handleSubmit();
-  //     }
-  //   };
-
-  //   document.addEventListener('keydown', keyDownHandler);
-
-  //   return () => {
-  //     document.removeEventListener('keydown', keyDownHandler);
-  //   };
-  // }, []);
-
   return (
     <div
       style={{
@@ -115,7 +93,7 @@ function Home() {
         </div>
         {isLoading ? (
           <span>
-            <img src="./images/spinner.gif" alt="" width={50} height={50} />
+            <img src="/SEC-2023-Day-16/images/spinner.gif" alt="" width={50} height={50} />
           </span>
         ) : null}
       </div>
