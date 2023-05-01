@@ -1,0 +1,10 @@
+.App {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-image: url("./images/background.png");
+  background-size: cover;
+  
+  background-attachment: fixed;
+}
