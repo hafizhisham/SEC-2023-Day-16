@@ -2,6 +2,7 @@ import { useState } from "react";
 // import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
+import { BASEURL } from "../../constant/config";
 
 function Home() {
   const [word, setWord] = useState("");
@@ -29,7 +30,7 @@ function Home() {
     if (response.status === 200) {
       const jsonData = await response.json();
 
-      navigate("/" + word, {
+      navigate(BASEURL + word, {
         state: jsonData,
       });
     } else {
@@ -93,7 +94,7 @@ function Home() {
         </div>
         {isLoading ? (
           <span>
-            <img src="/SEC-2023-Day-16/images/spinner.gif" alt="" width={50} height={50} />
+            <img src="https://github.com/hafizhisham/SEC-2023-Day-16/blob/main/images/spinner.gif" alt="" width={50} height={50} />
           </span>
         ) : null}
       </div>

@@ -11,7 +11,7 @@ function App() {
       element: <Home />,
     },
     {
-      path: BASEURL + "/:word",
+      path: BASEURL + ":word",
       element: <Definition />,
     },
   ]);
