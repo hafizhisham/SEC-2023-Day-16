@@ -143,7 +143,6 @@ function Definition() {
             </div>
           </div>
         ) : null}
-
       </div>
     </div>
   );
