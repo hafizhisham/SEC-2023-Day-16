@@ -1,6 +1,5 @@
 import { useLocation } from "react-router-dom";
 import { FcSpeaker } from "react-icons/fc";
-import MyBlueButton from "../components/MyBlueButton";
 
 // type DefinitionType = null | any;
 
@@ -145,11 +144,6 @@ function Definition() {
           </div>
         ) : null}
 
-            <div className="h-auto pt-10 pb-4 cursor-pointer">
-              <a href="https://hafizhisham.github.io/SEC-2023-Day-16/" target="_blank">
-                <MyBlueButton className="h-auto py-3" text="Back" />
-              </a>
-            </div>
       </div>
     </div>
   );
