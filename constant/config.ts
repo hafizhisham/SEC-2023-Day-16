@@ -1,1 +1,1 @@
-export const BASEURL = "/SEC-2023-Day-16";
+export const BASEURL = "/SEC-2023-Day-16/";

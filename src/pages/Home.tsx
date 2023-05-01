@@ -94,7 +94,7 @@ function Home() {
         </div>
         {isLoading ? (
           <span>
-            <img src="https://github.com/hafizhisham/SEC-2023-Day-16/blob/main/images/spinner.gif" alt="" width={50} height={50} />
+            <img src="./spinner.gif" alt="" width={50} height={50} />
           </span>
         ) : null}
       </div>
