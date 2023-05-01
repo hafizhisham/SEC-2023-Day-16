@@ -147,7 +147,7 @@ function Definition() {
 
             <div className="h-auto pt-10 pb-4 cursor-pointer">
               <a href="https://hafizhisham.github.io/SEC-2023-Day-16/" target="_blank">
-                <MyBlueButton className="h-auto py-3" text="Apply Now 🚀" />
+                <MyBlueButton className="h-auto py-3" text="Back" />
               </a>
             </div>
       </div>
